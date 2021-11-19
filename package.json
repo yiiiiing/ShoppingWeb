@@ -21,7 +21,6 @@
     "test-9.6": "mocha --require test/9.6/setup.test.js --exit --timeout 10000 --recursive test/9.6",
     "test-10.2": "mocha --require test/10.2/setup.test.js --exit --timeout 10000 --recursive test/10.2",
     "test": "mocha --require test/setup.test.js --ignore 'test/8.4/**/*.js' --ignore 'test/8.5/**/*.js' --ignore 'test/8.6/**/*.js' --ignore 'test/9.2/**/*.js' --ignore 'test/9.6/**/*.js' --ignore 'test/10.2/**/*.js'",
-    "test-own": "mocha --exit --timeout 10000 --recursive test/own/ownTest.js",
     "test-route": "mocha --require test/setup.test.js --exit --timeout 10000 --recursive test/routes.test.js",
     "test-order": "mocha --require test/setup.test.js --exit --timeout 10000 --recursive test/testOrderAPI.js",
     "test-ui": "mocha --require test/setup.test.js --exit --timeout 10000 --recursive test/ui.test.js"
